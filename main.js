@@ -20,7 +20,7 @@ new Sortable(listEl, {
 
 (async () => {
   const todos = await ReadTodos();
-  console.log(todos);
+
   RenderTodos(todos);
 })();
 
